@@ -1,6 +1,5 @@
-angular.module('nlu')
+angular.module('nlu',[])
     .controller('MainController', ($http, $scope) => {
-
         $scope.movie_name = "";
         $scope.movie_id = "";
         $scope.movie_result = {};
@@ -23,5 +22,4 @@ angular.module('nlu')
                     return;
                 });
         };
-
     });
