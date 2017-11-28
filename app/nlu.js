@@ -3,7 +3,7 @@ angular.module('nlu',[])
         $scope.movie_name = "";
         $scope.movie_id = "";
         $scope.movie_result = {};
-        $scope.loading = true;
+        $scope.loading = false;
 
         $scope.getData = function () {
             $scope.loading = true;
